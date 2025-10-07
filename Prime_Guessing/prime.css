@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    overflow-x: hidden;
+}
+.bg{
+    background-color: aquamarine;
+    height:100vh;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color: cornsilk;
+    height:300px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    padding:30px;
+}
+.btn{
+    height:30px;
+    width:80px;
+    border-radius: 10px;
+    border:none;
+    font-size: 15px;
+    background-color:darkgray;
+}

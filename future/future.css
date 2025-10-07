@@ -1,0 +1,37 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    overflow-x: hidden;
+}
+.conatiner{
+    height:100vh;
+    width:auto;
+    background-color: wheat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg{
+    height:300px;
+    width:400px;
+    text-align: center;
+    
+}
+.bg img{
+    
+    height:280px;
+    width:380px;
+
+}
+button{
+    height:40px;
+    width:60px;
+    border-radius: 15px;
+    border:none;
+    background-color:rgb(123, 123, 218);
+    cursor: pointer;
+}

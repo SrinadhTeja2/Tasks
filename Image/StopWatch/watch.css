@@ -1,0 +1,53 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.bg{
+    height:100vh;
+    width:100vw;
+    position: relative;
+   
+}
+.card{
+    position: absolute;
+    top:100px;
+    height:300px;
+    width: 400px;
+    background-color:color-mix(in srgb, rgb(230, 221, 222) 40%,lightblue 60%);
+    border-radius: 20px;
+    margin-left:90px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+.btn{
+    position:absolute;
+    top:350px;
+    padding-left:170px;
+   
+}
+.bt{
+     height:30px;
+    width:80px;
+    border-radius: 10px;
+    border: none;
+    background-color: dimgray;
+
+}
+#head{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+#timer{
+    font-size: 2rem;
+}
+

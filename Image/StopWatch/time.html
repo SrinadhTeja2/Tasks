@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg{
+            height:100vh;
+            width:auto;
+            background-color: aquamarine;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+
+        }
+        .card{
+            height:300px;
+            width:400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            flex-direction:column;
+        }
+        .btn{
+            width:200px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        #tenmin{
+            font-size: 2rem;
+        }
+        #twenmin{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="card"> 
+                <h1>Time </h1>
+               <p id="tenmin">10:60</p> 
+                <button onclick="btnclicked()">10min</button>
+               <p id="twenmin">20:60</p>
+        </div>
+        <div class="btn">
+       
+        <button onclick="btnstart()">20min</button>
+        </div>
+    </div>
+    <script src="time.js"></script>
+</body>
+</html>

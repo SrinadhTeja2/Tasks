@@ -1,0 +1,35 @@
+*bg{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.bg{
+    height:100vh;
+    width: auto;
+    background-color: teal;
+    ;display:flex;
+    justify-content: center;
+    align-items: center
+}
+.card{
+    background-color: bisque;
+    height:300px;
+    width:400px;
+      display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn{
+    height:30px;
+    width:100px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    background-color: aquamarine;
+    cursor: pointer;
+
+}

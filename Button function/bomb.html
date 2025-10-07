@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .bg{
+            height:100vh;
+            width:auto;
+            background-color: aliceblue;
+                display:flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .card{
+            height:300px;
+            width:400px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: antiquewhite;
+         }
+         #timer{
+            font-size: 20px;
+         }
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="card">
+                 <h1 id="head">Bomb Blast</h1>
+                 <img  id="img"src="https://tse1.mm.bing.net/th/id/OIP.XakFvfLWvFPTUCJppEDalgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+                 <p id="timer">Timer:<span id="span">0</span></p>
+                 
+        </div>
+    </div>
+    <script src="bomb.js"></script>
+</body>
+</html>
